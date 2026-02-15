@@ -75,7 +75,7 @@ thesis_artifact/
 cd thesis_artifact
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 No external dependencies are required.
 
 ## Running the Experiment
@@ -84,19 +84,19 @@ No external dependencies are required.
 
 ```bash
 python runner.py
-
+```
 ## With RAG filter comparison
 
 ```bash
 python runner.py --out with_filter
 python runner.py --no-rag-filter --out no_filter
-
+```
 ## Multiple experimental runs
 
 ```bash
 python runner.py --runs 50 --out with_filter_50
 python runner.py --no-rag-filter --runs 50 --out no_filter_50
-
+```
 ## Experimental Results
 
 The system evaluates four attack scenarios:
